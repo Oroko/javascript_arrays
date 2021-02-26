@@ -7,7 +7,7 @@
 // eql([1], [2]);
 // Expected: false but got: true
 
-// ways we can check whether an array is equal
+// ways we can check whether an two arrays are equal
 // 1. compare the lengths 
 // 2. compare the elements to check whether they are equal in the same positions
 //    a. call forEach on an arr1 to execute a function on each element and compare it with the elements on arr2 on the same index
