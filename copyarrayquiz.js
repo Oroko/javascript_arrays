@@ -9,3 +9,5 @@ function copyArray(arr){
 
 
 console.log(copyArray([1, 2, 3, 5]))
+
+console.log([1,2,3,4,5].slice(0,9))
