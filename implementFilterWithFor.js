@@ -3,8 +3,14 @@
 // Use forEach to write a function that behaves like filter.
 
 
-function even(arr){
-	return arr.filter(n => n % 2 === 0)
-}
+// function even(arr){
+// 	return arr.filter(n => n % 2 === 0)
+// }
 
-console.log(even([1,2,3,4,5,6,7,8,9]))
+// console.log(even([1,2,3,4,5,6,7,8,9]))
+
+
+
+function filter(arr, callback){
+	return arr.forEach(e => callback(e))
+}
